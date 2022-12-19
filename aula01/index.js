@@ -1,0 +1,10 @@
+//Primitive Types
+
+/*
+STRING
+NUMBER
+UNDEFINED
+NULL
+BOOLEAN
+SYMBOL
+*/
