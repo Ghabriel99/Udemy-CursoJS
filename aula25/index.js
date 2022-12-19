@@ -18,3 +18,4 @@ if (numero >= 0 && numero <= 5) {
 }
 
 console.log('...Aqui vai o resto do código.');
+
