@@ -25,7 +25,7 @@ console.log(pessoas5)
 
 //Retorne as pessoas com mais de 50 anos 
 console.log('Filtrando as pessoas com mais de 50 anos')
-const pessoas50 = pessoas.filter(obj => obj.idade >= 50);
+const pessoas50 = pessoas.filter(obj => obj.idade > 50);
 console.log(pessoas50)
 
 //Retorne as pessoas que o nome termina com a
