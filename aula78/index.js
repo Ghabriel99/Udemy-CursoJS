@@ -27,6 +27,7 @@ function ContaCorrente(agencia, conta, saldo, limite) {
    Conta.call(this, agencia, conta, saldo);
    this.limite = limite;
 }
+
 ContaCorrente.prototype = Object.create(Conta.prototype);
 ContaCorrente.prototype.constructor = ContaCorrente;
 
@@ -49,7 +50,7 @@ console.log('Conta Corrente')
 const cc = new ContaCorrente(11, 22, 0, 100)
 cc.depositar(10)
 cc.sacar(110)
-cc.sacar(1)
+cc.sacar(10)
 
 console.log()
 
