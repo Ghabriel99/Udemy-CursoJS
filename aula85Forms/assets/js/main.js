@@ -20,7 +20,7 @@ class ValidaFormulario {
          this.formulario.submit();
       }
    }
-
+  
    senhasSaoValidas() {
       let valid = true;
 
